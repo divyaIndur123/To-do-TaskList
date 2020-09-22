@@ -1,0 +1,162 @@
+
+
+body{
+    background-color: #574639;
+}
+.container{
+
+    background-color: #ffefe5;
+    border: 1px solid #d1c2c2;
+}
+h2{
+    color:#b84304;
+    margin: 0px 0px 50px 15px;
+}
+
+
+
+.task-input{
+
+    border-width:0px 0px 1px 0px;
+    border-color: black;
+    
+}
+
+.general{
+
+    margin:15px 0px;
+    padding: 0px;
+}
+
+/*MATERIAL INPUT*/
+h1{
+    font-family:calibri;
+    color:purple;
+    text-align:center;
+}
+/* .mat-input{
+    margin: 2% auto;
+    width: 50%;    
+} */
+.mat-input-outer{
+    display: table;
+    width: 100%;
+    position: relative;
+}
+.mat-input-outer input{
+    height: 50px;
+    border-radius: 0;
+    border: none;
+    width: 100%;    
+    padding: 0 15px;
+    font-family: calibri;
+    font-size: 20px;
+    font-style: italic;
+}
+.mat-input-outer label{
+    font-family: calibri;
+    font-size: 20px;
+    left: 15px;
+    position: absolute;
+    top: 18px;
+    font-style: italic;
+    transition: .2s;
+    color: #000;
+    cursor: text;
+    font-weight: normal;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+.mat-input-outer .border{
+    height: 1px;
+    background: #000;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -ms-transition: .3s;
+}
+.mat-input-outer .border::before{
+    content: " ";
+    display: table;
+    height: 3px;
+    width: 0%;
+    background: transparent;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -ms-transition: .3s;
+    margin: 0 auto;
+}
+.mat-input-outer input:focus ~ .border{
+    background: transparent;
+}
+.mat-input-outer input:focus ~ .border::before{
+    width: 100%;
+    background: #b84304;
+}
+.mat-input-outer input + label.active{
+    left: 5px;
+    top: -25px;
+    color: #b84304;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+.mat-input-outer input{
+
+    background-color: #ffefe5;
+}
+.border {
+    border: 1px solid #b84304!important;
+}
+
+.btn-info {
+    color: rgb(255, 255, 255);
+    background-color: #7c7c41;
+    border-color: #7c7c41;
+}
+
+
+.btn-info:hover {
+    color: rgb(255, 255, 255);
+    background-color: #66662e;
+    border-color: #66662e;
+}
+
+.row{
+
+    border: 1px solid #d1c2c2;
+    /* margin: 0px 5px; */
+}
+
+li.collection-item {
+    border: 1px solid #d1c2c2;
+    padding: 15px;
+}
+.task-container{
+
+    margin:0px 1px 0px 1px;
+}
+ul {
+    list-style-type: none;
+}
+.col-12.task-header-container {
+    margin: 11px 0px;
+}
+i.fa.fa-remove.clear-icon {
+    float: right;
+}
+button.btn.btn-info.clear-task-button {
+    background-color: black;
+}
+
+.btn{
+    padding: 0.375rem 2.0rem;
+}
+
+.col-12.task-header-container {
+    margin: 17px 0px;
+    padding: 0px;
+}
